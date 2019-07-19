@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log(\"hoge\");\nconsole.log(\"fuga\");\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("console.log(\"hoge\");\nconsole.log(\"fuga\");\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
