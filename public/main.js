@@ -91,9 +91,20 @@
   !*** ./src/index.js ***!
   \**********************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("console.log(\"hoge\");\nconsole.log(\"fuga\");\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("const style = __webpack_require__(/*! ./scss/style.scss */ \"./src/scss/style.scss\");\n\nconsole.log(\"hoge\");\nconsole.log(\"fuga\");\n\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/scss/style.scss":
+/*!*****************************!*\
+  !*** ./src/scss/style.scss ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/scss/style.scss?");
 
 /***/ })
 
